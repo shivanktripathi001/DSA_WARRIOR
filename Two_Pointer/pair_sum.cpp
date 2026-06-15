@@ -10,7 +10,7 @@ int target = 10;
 int main(){
 
     int i=0;
-    int j=arr.size()-1;
+    int j = (sizeof(arr) / sizeof(arr[0])) - 1; 
 
     while(i<j){
 
